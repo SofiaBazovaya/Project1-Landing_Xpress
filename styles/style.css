@@ -26,7 +26,8 @@
   justify-content: center;
 }
 
-.title2 {
+.title2
+ {
   margin-bottom: 70px;
   font-family: "Lexend-SemiBold";
   font-size: 44px;
@@ -127,6 +128,8 @@
 
 .grey1,
 .grey2,
+.grey3,
+.grey4,
 .orange {
   width: 10px;
   height: 10px;
@@ -134,7 +137,9 @@
 }
 
 .grey1,
-.grey2 {
+.grey2,
+.grey3,
+.grey4 {
   background-color: #F1F1F1;
 }
 
@@ -204,3 +209,29 @@
   margin-left: 42px;
   margin-right: 42px;
   }
+
+.conteiner5 {
+  width: 1600px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.title5 {
+  margin-left: 227px;
+  margin-bottom: 70px;
+  font-family: "Lexend-SemiBold";
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  font-style: normal;
+  line-height: 120%;
+  }
+
+.brands {
+  background-color: #F8FCFD;
+  display: flex;
+  justify-content: center;
+  gap: 137px;
+  height: 231px;
+  align-items: center;
+}
