@@ -11,6 +11,41 @@
   font-style: normal;
 }
 
+/* Header */
+
+
+/* Блок 1 */
+.conteiner1{
+  width: 1146px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1{
+  display: flex;
+  align-items: center;
+  perspective: 1000px;
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+
+.item01 {
+  filter: brightness(60%);
+}
+
+.item02 {
+  z-index: 1;
+  margin-left: -16px;
+}
+
+.item03 {
+  filter: brightness(60%);
+  margin-left: -27px;
+}
+
+/* Блок 2 */
 .conteiner2{
   width: 1146px;
   margin: 0 auto;
@@ -21,7 +56,6 @@
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 339px 339px;
-  /* фиксируем две строки */
   gap: 30px;
   justify-content: center;
 }
@@ -51,7 +85,7 @@
   grid-row: 2/3;
 }
 
-
+/* Блок 3 */
 .conteiner3 {
   width: 1148px;
   margin: 0 auto;
@@ -147,6 +181,7 @@
   background-color: #FF843F;
 }
 
+/* Блок 4 */
 .conteiner4 {
   width: 1148px;
   margin: 0 auto;
@@ -210,6 +245,7 @@
   margin-right: 42px;
   }
 
+  /* Блок 5 */
 .conteiner5 {
   width: 1600px;
   margin: 0 auto;
@@ -235,3 +271,9 @@
   height: 231px;
   align-items: center;
 }
+
+    /* Блок 6 */
+
+
+
+    /* Footer */
