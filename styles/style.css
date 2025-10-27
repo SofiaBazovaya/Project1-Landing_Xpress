@@ -12,6 +12,36 @@
 }
 
 /* Header */
+.header{
+  margin: 0 auto;
+  width: 1600px;
+  height: 720px;
+  margin-bottom: 70px;
+  background: linear-gradient(255.02deg, rgba(129, 194, 212, 0.56) 5.93%, rgba(138, 199, 217, 0.56) 23.18%, rgba(155, 207, 224, 0.72) 43.47%, rgba(135, 198, 215, 0.49) 58.21%, rgba(102, 178, 201, 0.57) 73.36%, rgba(98, 177, 198, 0.51) 92.76%);
+}
+
+.header1{
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  height: auto;
+}
+
+.mainImg img{
+  padding-left: 183px;
+  padding-top: 30px;
+  width: 711px;
+  height: 590px;
+}
+
 
 
 /* Блок 1 */
